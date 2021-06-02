@@ -7,6 +7,7 @@ OXO Chain uses the Proof-of-Work consensus. Each participant can earn OXO reward
 
 
 For Metamask:
+
 RPC    : https://rpc.oxochain.com
 Symbol : OXO
 
