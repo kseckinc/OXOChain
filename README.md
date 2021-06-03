@@ -15,9 +15,13 @@ OXO Chain uses the Proof-of-Authority consensus.
 # For Metamask:
 
 You can use it with an RPC connection with a wallet such as Metamask. 
-RPC    : https://rpc.oxochain.com
-Symbol : OXO
-ChainID: 1881
+
+| |  |
+|--|--|
+| RPC|  https://rpc.oxochain.com|
+| ChainID |  1881|
+| Symbol|  OXO|
+
 
 # Popular token contract addresses
 
