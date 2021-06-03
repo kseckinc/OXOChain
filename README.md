@@ -27,6 +27,8 @@ You can use it with an RPC connection with a wallet such as Metamask.
 
 # Popular token contract addresses
 
-|Token|Contract Address  |
-|--|--|
-| PUAN|0xdc5b7930d0708C951B796549C567B83ABEcB1670|
+|Token|Contract Address  |Total Supply
+|--|--|--|
+| PUAN|0xdc5b7930d0708C951B796549C567B83ABEcB1670|100.000.000|
+|TEST|0x372dC09B11DdF3e502D45eB0d5a1676303A3dC08|1.000 (100 Burned)|
+|CLOUD|0xd72637302F0CBbdf4Ad383cC22404466bED74733|1.000.000.000|
