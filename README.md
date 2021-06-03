@@ -1,12 +1,11 @@
-# OXOChain
+# OXO Chain
 
-OXO Chain is an Ethereum-based blockchain. 
-You can use it with an RPC connection with a wallet such as Metamask. 
-OXO Chain uses the Proof-of-Authority consensus. 
-
+OXO Chain is an Ethereum-based PoA blockchain. 
+OXO Chain uses the Proof-of-Authority consensus.
 
 # For Metamask:
 
+You can use it with an RPC connection with a wallet such as Metamask. 
 RPC    : https://rpc.oxochain.com
 Symbol : OXO
 
