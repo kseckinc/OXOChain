@@ -28,6 +28,5 @@ You can use it with an RPC connection with a wallet such as Metamask.
 
 |Token|Name|Contract Address  |Total Supply|*
 |--|--|--|--|--|
-|BTL|Bahis Lira|0x958Fc4b4ba7c87ae2Ebd19DC7198c23e107B9D10|2.500.000|Mintable/Burnable|
-|PUAN|Puan Token|0x603a7f1a7f0939AE26805e2121293ee81a053b61|1.000.000.000|Mintable/Burnable|
+|PUAN|Puan Token|0x958Fc4b4ba7c87ae2Ebd19DC7198c23e107B9D10|1.000.000.000|Mintable/Burnable|
 
