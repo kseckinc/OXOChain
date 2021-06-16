@@ -28,6 +28,6 @@ You can use it with an RPC connection with a wallet such as Metamask.
 
 |Token|Name|Contract Address  |Total Supply|*
 |--|--|--|--|--|
-|PUAN|Puan Token|0x958Fc4b4ba7c87ae2Ebd19DC7198c23e107B9D10|1.000.000.000|Mintable/Burnable|
-|STUSD|Stable USD|0xe90c8497818af3cf8cb90f83086c9ab9d892D5FB|2.000|Mintable/Burnable|
+|PUAN|Puan Token|0xe90c8497818af3cf8cb90f83086c9ab9d892D5FB|1.000.000.000|Mintable/Burnable|
+|STUSD|Stable USD|0xDaFdA7dCC3F58b7E047b932Ef7dCE5d84CE30940|2.000|Mintable/Burnable|
 
