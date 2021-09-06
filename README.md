@@ -28,7 +28,7 @@ enode://bbcd4de4330356efcd188669bc13758e5eac868408c08124a271ac2513982e2ac14ed62e
 enode://15cbe4091f0ff05f8a20f5f664ad3bc9fcbd52397144e183032ec7d0e4b0ee3c457166a3eda83e077c581ea805a575e430abae14497a06d368c9c9b02333ab87@37.247.100.12:30303
 enode://718e42c3d756df072eb601c30583ff925b9eecc9204bb880acd108c163dabc76a1213d9c6767f5a3baae350c93a96e5eb57fdc31dd4f359c50ec48dfa92fa384@152.228.180.128:30303
 
-# For Metamask:
+# For Metamask/PocketToken:
 
 You can use it with an RPC connection with a wallet such as Metamask. 
 
