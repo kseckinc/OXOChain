@@ -23,9 +23,9 @@ OXO Chain uses the Proof-of-Authority consensus.
 
 ## Authority WalletIDs
 
-|WalletID |
-|--|
-| 0x9DdE90fcA2D79A78398d148274b40E71CF3615a1| 
+|WalletID |Owner |
+|--|--|
+| 0x9DdE90fcA2D79A78398d148274b40E71CF3615a1| OXOChain Team |
 
 ## PreBalanced WalletIDs
 
