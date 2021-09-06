@@ -34,11 +34,8 @@ You can use it with an RPC connection with a wallet such as Metamask.
 | ChainID |  1881|
 | Symbol|  OXO|
 
-
 # Popular token contract addresses
 
 |Token|Name|Contract Address  |Total Supply|*
 |--|--|--|--|--|
 |PUAN|Puan Token|0x32D3BAF80049578D143Aa78d33De027816979f12|100.000.000|Mintable/Burnable|
-
-
