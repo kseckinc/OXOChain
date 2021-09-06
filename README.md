@@ -3,9 +3,13 @@
 OXO Chain is an Ethereum-based PoA blockchain. 
 OXO Chain uses the Proof-of-Authority consensus.
 
-# Block Explorers
+# Websites
 
-https://explorer.oxochain.com/dashboard
+|SiteName|URL|
+|--|--|
+|Main Web|https://oxochain.com|
+|Block Explorer|https://explorer.oxochain.com/dashboard|
+|Node Stats|http://stats.oxochain.com|
 
 # Authority WalletIDs
 
