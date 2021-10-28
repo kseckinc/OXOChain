@@ -50,7 +50,7 @@ You can use it with an RPC connection with a wallet such as Metamask.
 
 |Token|Name|Contract Address  |Total Supply|*
 |--|--|--|--|--|
-|PUAN|Puan Token|0x32D3BAF80049578D143Aa78d33De027816979f12|100.000.000|Mintable/Burnable|
+|TEST|Test Token|0xdb0d8213b0Ae26A56026E53C10dF1D2F9Bd7330B|1.000.000|Mintable/Burnable|
 
 ## genesis.json
 
