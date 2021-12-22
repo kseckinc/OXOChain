@@ -1,12 +1,12 @@
 # UBUNTU 20.04LTS
 
-### APT UPDATE etc
+### apt update/upgrade etc
 
 ```shell
 apt update -y && apt upgrade -y && apt autoremove -y
 ```
 
-### INSTALL ETHEREUM GO CLIENT
+### Install Ethereum GO Client (geth)
 
 ```shell
 sudo add-apt-repository -y ppa:ethereum/ethereum
@@ -14,7 +14,7 @@ apt -y update
 apt -y install ethereum
 ```
 
-### CREATE oxonode FOLDER
+### Create oxonode folder
 
 ```shell
 mkdir oxonode && cd oxonode
@@ -72,7 +72,7 @@ tail -f nohup.out | grep enode:
 ```
 ----
 
-## SIGNERWALLET 
+## FOR SIGNER NODE 
 
 ### Set Parameters
 ```shell
