@@ -1,5 +1,14 @@
 # Node Setup on Ubuntu 20.04 LTS
 
+---
+
+## SimpleSetup
+```shell
+wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall && chmod +x OxoNodeInstall && ./OxoNodeInstall
+````
+
+----
+
 ### apt update/upgrade etc
 
 ```shell
