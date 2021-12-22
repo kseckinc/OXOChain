@@ -78,8 +78,7 @@ tail -f nohup.out | grep enode:
 ### Set Parameters
 ```shell
 SIGNERWALLET=[SIGNERWALLETADDRESS]
-SIGNERPRIVATE=[SIGNERPRIVATE] // dont forget clear history after setup
-NODEIP=[NODEIPADDRESS]
+SIGNERPRIVATE=[SIGNERPRIVATE] // don't forget clear history after setup
 NODENAME=[NODENAME]
 PASSWORD=[WALLETPASSWORD]
 NETWORKID=1881
