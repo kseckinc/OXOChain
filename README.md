@@ -68,7 +68,7 @@ You can use it with an RPC connection with a wallet such as Metamask.
 
 |Token|Name|Contract Address  |Total Supply|*
 |--|--|--|--|--|
-|TEST|Test Token|0xdb0d8213b0Ae26A56026E53C10dF1D2F9Bd7330B|1.000.000|Mintable/Burnable|
+|TEST|Test Token|0xD76b991152060b686F6daCC2923f53c7Fc48Da09|1.000.000|Mintable/Burnable|
 
 ## genesis.json
 
