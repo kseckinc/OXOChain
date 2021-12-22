@@ -10,7 +10,7 @@ sudo apt-get install -y software-properties-common
 ### Install Ethereum GO Client (geth)
 
 ```shell
-sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt -repository -y ppa:ethereum/ethereum
 sudo apt-get -y update
 sudo apt-get -y install ethereum
 ```
