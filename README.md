@@ -8,7 +8,8 @@ OXO Chain uses the Proof-of-Authority consensus.
 |SiteName|URL|
 |--|--|
 |Main Web|https://oxochain.com|
-|Block Explorer|https://explorer.oxochain.com/dashboard|
+|Block Explorer|https://explorer.oxochain.com|
+|Testnet Block Explorer|https://explorer.testnet.oxochain.com |
 |Node Stats|http://stats.oxochain.com|
 
 | BootNodes |
