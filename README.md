@@ -10,7 +10,7 @@ OXO Chain uses the Proof-of-Authority consensus.
 |Main Web|https://oxochain.com|
 |Block Explorer|https://explorer.oxochain.com|
 |Testnet Block Explorer|https://explorer.testnet.oxochain.com |
-|Node Stats|http://stats.oxochain.com|
+|Node Stats|https://stats.oxochain.com|
 
 | BootNodes |
 |--|
