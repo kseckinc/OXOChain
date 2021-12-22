@@ -65,7 +65,7 @@ rm -rf geth/ && rm -rf nohup.out
 geth --datadir . init oxochain.json
 rm -rf node.sh
 cat >> node.sh << EOF
-nohup geth --networkid $NETWORKID --datadir "." --syncmode "full" --port $NODEPORT --bootnodes "$BOOTNODES" --allow-insecure-unlock --unlock 0 --password password.txt --http.vhosts "*" --http.corsdomain "*" --ethstats $NODENAME:$STATSPASSWORD@stats.oxochain.com:80 --http --http.addr "$NODEIP" --http.port $RPCPORT --http.api admin,eth,miner,web3,net,personal,txpool,clique,debug --ws --ws.port $WSPORT --ws.api admin,eth,miner,web3,net,personal,txpool,debug --ws.addr "$NODEIP" --gcmode "archive" --cache 1024  &
+nohup geth --networkid $NETWORKID --datadir "." --syncmode "full" --port $NODEPORT --bootnodes "$BOOTNODES" --allow-insecure-unlock --unlock 0 --password password.txt --http.vhosts "*" --http.corsdomain "*" --ethstats $NODENAME:$STATSPASSWORD@stats.oxochain.com:443 --http --http.addr "$NODEIP" --http.port $RPCPORT --http.api admin,eth,miner,web3,net,personal,txpool,clique,debug --ws --ws.port $WSPORT --ws.api admin,eth,miner,web3,net,personal,txpool,debug --ws.addr "$NODEIP" --gcmode "archive" --cache 1024  &
 EOF
 chmod +x node.sh
 ./node.sh
@@ -116,7 +116,7 @@ rm -rf geth/ && rm -rf nohup.out
 geth --datadir . init oxochain.json
 rm -rf node.sh
 cat >> node.sh << EOF
-nohup geth --networkid $NETWORKID --datadir "." --syncmode "full" --port $NODEPORT --bootnodes "$BOOTNODES" --allow-insecure-unlock --unlock "$SIGNERWALLET" --password password.txt --http.vhosts "*" --http.corsdomain "*" --ethstats $NODENAME:$STATSPASSWORD@stats.oxochain.com:80 --mine --miner.gastarget 7500000 --miner.gaslimit 120000000 --miner.gasprice 1000000000 --miner.etherbase "$SIGNERWALLET" --miner.extradata "$NODENAME" &  &
+nohup geth --networkid $NETWORKID --datadir "." --syncmode "full" --port $NODEPORT --bootnodes "$BOOTNODES" --allow-insecure-unlock --unlock "$SIGNERWALLET" --password password.txt --http.vhosts "*" --http.corsdomain "*" --ethstats $NODENAME:$STATSPASSWORD@stats.oxochain.com:443 --mine --miner.gastarget 7500000 --miner.gaslimit 120000000 --miner.gasprice 1000000000 --miner.etherbase "$SIGNERWALLET" --miner.extradata "$NODENAME" &  &
 EOF
 chmod +x node.sh
 ./node.sh
