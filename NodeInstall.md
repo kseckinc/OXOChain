@@ -26,9 +26,9 @@ mkdir oxonode && cd oxonode
 ### Set Parameters
 
 ```shell
-NODEIP=[NODEIPADDRESS]
-NODENAME=[NODENAME]
-PASSWORD=[WALLETPASSWORDFOR]
+NODEIP=...
+NODENAME=...
+PASSWORD=...
 NETWORKID=1881
 NODEPORT=31881
 WSPORT=18546
@@ -78,10 +78,10 @@ tail -f nohup.out | grep enode:
 
 ### Set Parameters
 ```shell
-SIGNERWALLET=[SIGNERWALLETADDRESS]
-SIGNERPRIVATE=[SIGNERPRIVATE] // don't forget clear history after setup
-NODENAME=[NODENAME]
-PASSWORD=[WALLETPASSWORD]
+SIGNERWALLET=...
+SIGNERPRIVATE=... // don't forget clear history after setup
+NODENAME=...
+PASSWORD=...
 NETWORKID=1881
 NODEPORT=31881
 STATSPASSWORD=gazete
