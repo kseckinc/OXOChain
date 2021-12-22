@@ -56,6 +56,14 @@ You can use it with an RPC connection with a wallet such as Metamask.
 | ChainID |  1881|
 | Symbol|  OXO|
 
+#### TestNet
+
+||Detail|
+|--|--|
+| RPC|  https://rpc.testnet.oxochain.com|
+| ChainID |  91881|
+| Symbol|  TOXO|
+
 ## Popular token contract addresses
 
 |Token|Name|Contract Address  |Total Supply|*
