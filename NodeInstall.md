@@ -5,6 +5,8 @@
 ## SimpleSetup
 ```shell
 wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall && chmod +x OxoNodeInstall && ./OxoNodeInstall
+./node.sh
+tail -f nohup.out
 ````
 
 ----
