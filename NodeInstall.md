@@ -4,7 +4,7 @@
 
 ## SimpleSetup
 ```shell
-wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall
+wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall --no-cache
 chmod +x OxoNodeInstall
 ./OxoNodeInstall
 ```
