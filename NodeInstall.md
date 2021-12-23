@@ -5,9 +5,13 @@
 ## SimpleSetup
 ```shell
 wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall && chmod +x OxoNodeInstall && ./OxoNodeInstall
+```
+
+Run and check outputs
+```shell
 ./node.sh
 tail -f nohup.out
-````
+```
 
 ----
 
