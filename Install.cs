@@ -1,5 +1,3 @@
-// See https://aka.ms/new-console-template for more information
-
 using System.Diagnostics;
 
 Console.WriteLine("OxoChain Node Install");
@@ -82,7 +80,6 @@ try
     sr.WriteLine(walletPassword);
     sr.Close();
 
-
     Console.WriteLine("## Creating a wallet with password");
     output = RunCommand("geth", " --datadir . account new --password password.txt");
     if (writeOutputs == "yes") Console.WriteLine(output);
@@ -95,7 +92,6 @@ try
     sr2.WriteLine("nohup geth --networkid 1881 --datadir . --syncmode full --port 31881 --bootnodes \"" + bootNodes + "\" --allow-insecure-unlock --unlock 0 --password password.txt --http.vhosts  \"" + star + "\"  --http.corsdomain \"" + star +"\" --ethstats " + nodeName + ":gazete@stats.oxochain.com:443 --http --http.addr " + nodeIp + " --http.port 18545 --http.api admin,eth,miner,web3,net,personal,txpool,clique,debug --ws --ws.port 18546 --ws.api admin,eth,miner,web3,net,personal,txpool,debug --ws.addr " + nodeIp + "  --gcmode archive --cache 1024 " + and );
     sr2.Close();
 
-
     pathNode = @"" + "kill.sh";
     if (File.Exists(pathNode)) File.Delete(pathNode);
     using StreamWriter sr3 = File.AppendText(pathNode);
@@ -103,7 +99,6 @@ try
     sr2.Close();
 
     Console.WriteLine("## Init genesis");
-
     output = RunCommand("geth", " --datadir . init oxochain.json");
     if (writeOutputs == "yes") Console.WriteLine(output);
 
@@ -118,15 +113,11 @@ try
     Console.WriteLine();
     Console.WriteLine("START NODE: ./node.sh");
     Console.WriteLine(" STOP NODE: ./kill.sh");
-
 }
 catch (Exception)
 {
-
     throw;
 }
-
-
 
 string RunCommand(string command, string args)
 {
