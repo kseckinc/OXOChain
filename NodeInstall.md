@@ -3,6 +3,13 @@
 ---
 
 ## SimpleSetup
+Create new folder
+```shell
+mkdir oxonode
+cd oxonode
+```
+
+Download and Run Fucking Simple Installer
 ```shell
 wget https://github.com/OXOChain/OXOChain/raw/main/OxoNodeInstall --no-cache
 chmod +x OxoNodeInstall
