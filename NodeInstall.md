@@ -1,10 +1,7 @@
-# Node Setup on Ubuntu 20.04 LTS
 
----
+# SimpleSetup 
 
-## SimpleSetup 
-
-https://github.com/OXOChain/NodeInstall
+Source: https://github.com/OXOChain/NodeInstall
 
 Create new folder
 ```shell
@@ -26,6 +23,8 @@ tail -f nohup.out
 ```
 
 ----
+
+# Node Setup on Ubuntu 20.04 LTS
 
 ### apt update/upgrade etc
 
